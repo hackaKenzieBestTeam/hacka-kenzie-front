@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
-import { Manrope } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
 
-const manrope = Manrope({ subsets: ['latin'] })
+
+const manrope = localFont({ src: "../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf" })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
