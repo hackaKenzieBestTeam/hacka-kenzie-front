@@ -1,0 +1,13 @@
+interface iButtomProps{
+    buttomType: "submit" | "button" | "reset"
+    style: "brown" | "white" | "arrow"
+    buttonText: string
+
+O componente do botão DEVE conter as props acima.
+
+style: refere-se ao estilo que será aplicado no botão. Se for "brown", irá renderizar 
+    o botão que, no figma, o estado padrão é marrom. Se for "white", renderiza o branco.
+    Se for "arrow", renderiza o botão 3 do figma que tem uma seta na direita.
+
+
+buttonText: É o que estará escrito dentro do botão.
